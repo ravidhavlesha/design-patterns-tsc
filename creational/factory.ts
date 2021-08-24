@@ -23,8 +23,8 @@ class Designer implements Interviewer {
 abstract class HiringManager {
     protected abstract makeInterviewer(): Interviewer
 
-    public takeInterview() {
-        const interviewer = this.makeInterviewer()
+    public takeInterview(): void {
+        const interviewer: Interviewer = this.makeInterviewer()
         interviewer.askQuestion()
     }
 }
