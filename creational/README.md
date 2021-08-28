@@ -9,10 +9,3 @@ It provides a way to delegate the instantiation logic to child classes.
 
 ## [Builder](https://github.com/ravidhavlesha/design-patterns-tsc/blob/master/creational/builder.ts)
 Allow you to create different flavors of an object while avoiding constructor pollution.
-
-
-- [Creational Patterns](#creational-patterns)
-  - [Singleton](#singleton)
-  - [Factory](#factory)
-  - [Builder](#builder)
-
